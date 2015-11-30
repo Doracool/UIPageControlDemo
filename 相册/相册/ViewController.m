@@ -34,7 +34,7 @@
     [self.view addSubview:scrollView];
     
     //创建滚动窗口的大小
-    scrollView.contentSize = CGSizeMake((QYScreenW + 25)*3, QYScreenH);
+    scrollView.contentSize = CGSizeMake((QYScreenW + 25)*Count, QYScreenH);
     
     //设置分页
     scrollView.pagingEnabled = YES;
